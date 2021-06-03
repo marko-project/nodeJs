@@ -13,3 +13,5 @@ console.log(first, second)
 
 //created file if not existing
 writeFileSync('./content/result-sync.txt',`${first}, ${second}`)
+
+

@@ -1,4 +1,6 @@
 //FS modules async vs sync
+
+// if one user reading one of the files other can't --> app down
 console.log('start')
 const { readFileSync, writeFileSync } = require("fs");
 

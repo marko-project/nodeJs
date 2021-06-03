@@ -1,9 +1,10 @@
 //FS modules
+//ASYNC PAttern
 
 // destructre from modu
 // const fs = require('fs')
 const {readFile, writeFile} = require('fs')
-//calback functions
+
 
 readFile('./content/first.txt','utf8' ,(err, result) =>{
     if(err){
